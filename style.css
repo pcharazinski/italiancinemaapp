@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size: 25px;
+    word-spacing: 10px;
+
+}
+
+.movies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 80%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    float:left;
+    margin-left: 120px;
+
+}
+.film2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    float:left;
+
+
+}
+.film3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    float:left;
+
+
+}
+.film4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    float:left;
+    margin-right: 120px;
+
+
+}
+
+.plakat {
+    width: 184px;
+    height: 265px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 1rem #e61515, inset 0 0 1rem #048a1a, 0 0 1.5rem #6eaafb, inset 0 0 1.5rem #048a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tytul,
+.singleMovieInner {
+    display: flex;
+    align-items: center;
+}
+
+.tytul {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: Advent Pro, sans-serif;
+    letter-spacing: 3px;
+
+}
