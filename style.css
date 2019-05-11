@@ -5,7 +5,9 @@ body {
     text-align:center;
     font-size: 25px;
     word-spacing: 10px;
-
+    background-image: url("background2.jpg");
+    background-position: top;
+    
 }
 
 .movies {
@@ -89,5 +91,20 @@ body {
     color: #fff;
     font-family: Advent Pro, sans-serif;
     letter-spacing: 3px;
+
+}
+
+.dates {
+    background-color: black;
+    color: #048a1a;
+    height: 50px;
+    font-size: 35px;
+}
+
+.tytul {
+    color:white;
+    font-size: 25px;
+    font-family: 'Crimson Text', serif;
+    width: 200px;
 
 }
