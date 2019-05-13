@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cinema</title>
+   <link rel="stylesheet" type="text/css" href="registerForm.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <form class = 'mainForm' method= 'post'>
+    <div class='view row justify-content-center'>
+        <div class='main col-md-9 d-flex align-items-center'>
+            <div class="formBoard container mainForm ">
+                <div class='d-flex align-items-center justify-content-center'>
+                    <div class='form'>
+                        <h1>Formularz rezerwacyjny</h1>
+                    </div>
+                </div>
+                <div class='informationRow'>
+                    <div>
+                        <h5>Wybrano miejsca: </h>
+                    </div>
+                    <div>
+                        <h5>Do zapłaty: </h>
+                    </div>
+
+                </div>
+                <div class="data d-flex justify-content-center">
+                   
+                    <div class="form-group col-md-6">
+                        <label for="name">Imię </label>
+                        <input type="text" class="form-control" placeholder="Pole wymagane" id="name" required />
+                    </div>
+
+                </div>
+                <div class="data d-flex justify-content-center">
+                    <div class="form-group col-md-6">
+                       <label for="lastName">Nazwisko</label>
+                        <input type="text" class="form-control" placeholder="Pole wymagane" id="lastName" required />
+                    </div>
+                </div>
+                <div class="data d-flex justify-content-center">
+                    <div class="form-group col-md-6">
+                            <label for="Email">Email</label>
+                        <input type="email" class="form-control" placeholder="Pole wymagane" id="Email" required />
+                    </div>
+                </div>
+                <div class="data d-flex justify-content-center">
+                    <button type="submit" class="btn btn-success confirm" style='margin-bottom:10px;'  id='confirm'>Potwierdź! </button>
+                   <button type="reset" class="btn btn-danger reset" style='margin-bottom:10px;' id='reset'>Anuluj</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </form>  
+</body>
+</html>
