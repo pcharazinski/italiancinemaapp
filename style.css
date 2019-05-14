@@ -5,8 +5,7 @@ body {
     text-align:center;
     font-size: 25px;
     word-spacing: 10px;
-    background-image: url("background2.jpg");
-    background-position: top;
+    background-image: url("tlo3.png");
     
 }
 
@@ -29,7 +28,8 @@ body {
     align-items: center;
     padding: 30px 10px;
     float:left;
-    margin-left: 120px;
+    margin-left: 450px;
+    margin-top: 100px;
 
 }
 .film2 {
@@ -39,6 +39,8 @@ body {
     align-items: center;
     padding: 30px 10px;
     float:left;
+    margin-top: 100px;
+
 
 
 }
@@ -49,6 +51,8 @@ body {
     align-items: center;
     padding: 30px 10px;
     float:left;
+    margin-top: 100px;
+
 
 
 }
@@ -60,6 +64,8 @@ body {
     padding: 30px 10px;
     float:left;
     margin-right: 120px;
+    margin-top: 100px;
+
 
 
 }
@@ -96,9 +102,17 @@ body {
 
 .dates {
     background-color: black;
-    color: #048a1a;
+    color: #ac0606;
     height: 50px;
     font-size: 35px;
+    width: 80%;
+    align-items: right;
+    float:right;
+    margin-top: 20px;
+}
+
+.dates:hover {
+    color: rgb(253, 152, 112);
 }
 
 .tytul {
